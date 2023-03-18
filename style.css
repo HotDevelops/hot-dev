@@ -1,0 +1,86 @@
+#header {
+        background-color: goldenrod;
+        margin: 20px 0 20px 0;
+        height: auto;
+        width: 100%;
+        border: 1px 1 #ddd;
+}
+p a {
+    cursor: pointer;
+    color: blue;
+    margin: 5px;
+}
+p {
+    cursor: pointer;
+    color: black;
+    margin: 15px;
+}
+h1 img {
+    width: 200px;
+    margin-top: 10px;
+}
+h1 {
+    font-size: 120px;
+    color: red;
+}
+#about-me {
+    background-color: red;
+        margin: 20px 0 20px 0;
+        height: auto;
+        width: 100%;
+        border: 1px 1 #ddd;
+}
+h2 {
+    color: white;
+    font-size: 50px;
+}
+h3 {
+    font-size: large;
+}
+h3 a {
+    color: white;
+    font-style: italic;
+}
+h3 img {
+    width: 100px;
+    border-radius: 4px;
+}
+h4 {
+    font-size: x-large;
+    margin-top: 15px;
+}
+h4 img {
+    width: 500px;
+    border-radius: 10px;
+}
+#github {
+    background-color: lightslategray;
+        margin: 20px 0 20px 0;
+        height: auto;
+        width: 100%;
+        border: 1px 1 #ddd;
+}
+
+#project {
+    background-color: green;
+        margin: 20px 0 20px 0;
+        height: auto;
+        width: 100%;
+        border: 1px 1 #ddd;
+}
+#likes {
+    background-color: royalblue;
+        margin: 20px 0 20px 0;
+        height: auto;
+        width: 100%;
+        border: 1px 1 #ddd;
+}
+h3 em {
+    color: red;
+}
+#call {
+    margin: 20px 0 20px 0;
+        height: auto;
+        width: 100%;
+        border: 1px 1 #ddd;
+}
