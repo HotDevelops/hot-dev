@@ -151,7 +151,6 @@ h6 {
     font-size: large;
 }
 h4 {
-    background: linear-gradient(to top right, grey, white, grey);
     position: relative;
     left: 5%;
     margin-right: 250px;
@@ -159,6 +158,9 @@ h4 {
     background-size: 100%;
     margin-bottom: 20px;
     text-align: center;
+}
+h4 em {
+    background: linear-gradient(to top right, grey, white, grey);
 }
 h4 a {
     color: blue;
