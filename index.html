@@ -9,7 +9,7 @@
         <div id="hero">
             <div id="nav">
                 <img src="Images/logo.png" class="logo">
-                <button onclick="toggleBtn()" id="btn" type="button">Hello!</button>
+                <button onclick="openpopup()" id="btn" type="button">Hello!</button>
             </div>
             <div id="content">
                 <h3>Welcome to the <em>Portfolio</em> of</h3>
@@ -37,10 +37,23 @@
             </div>
             <h6>Take a tour... <br>from here &#8594;</h6>
         </div>
+        <div class="container">
+            <div class="popup" id="popup">
+                <img src="hand.png">
+                <p>Hi there!</p>
+                <h5>From Hot Dev.</h5>
+                <button type="button" class="btn2" onclick="closepopup()">OK</button>
+            </div>
+        </div>
+
         <script>
-            function toggleBtn(){
-                alert('Hi There! | From Hot Dev.')
-            }
+            let popup = document.getElementById("popup");
+        function openpopup(){
+            popup.classList.add("open-popup")
+        }
+        function closepopup(){
+            popup.classList.remove("open-popup")
+        }
         </script>
     </body>
 </html>

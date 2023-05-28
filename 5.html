@@ -10,7 +10,15 @@
             <div id="nav">
                 <img src="Images/logo.png" class="logo">
                 <h2><u>CONTACT</u></h2>
-                <button onclick="toggleBtn()" id="btn" type="button">Hello!</button>
+                <button onclick="openpopup()" id="btn" type="button">Hello!</button>
+            </div>
+            <div id="content">
+                <h3>Welcome to the <em>Portfolio</em> of</h3>
+                <h1><u><img src="Assets/Fire.gif">Hot Dev.</u></h1>
+            </div>
+            <div id="content">
+                <h3>Welcome to the <em>Portfolio</em> of</h3>
+                <h1><u><img src="Assets/Fire.gif">Hot Dev.</u></h1>
             </div>
             <div id="sidebar">
                 <img src="Images/menu.png" class="menu">
@@ -27,9 +35,13 @@
             <h4>Gmail address: imakbss@gmail.com</h4>
         </div>
         <script>
-            function toggleBtn(){
-                alert('Hi There! | From Hot Dev.')
-            }
+            let popup = document.getElementById("popup");
+        function openpopup(){
+            popup.classList.add("open-popup")
+        }
+        function closepopup(){
+            popup.classList.remove("open-popup")
+        }
         </script>
     </body>
 </html>
